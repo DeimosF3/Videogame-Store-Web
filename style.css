@@ -21,6 +21,9 @@ h1{
 .grid-33 {
   grid-template-columns: 33.3% 33.3% 33.3% 33.3%;
 }
+.grid-50 {
+    grid-template-columns: 50% 50%;
+}
 .centrar{
     width: 50%;
     align-items: center;
@@ -38,7 +41,11 @@ h1{
     font-weight: bold;
     margin-top: -14px;
 }
+.textoJ {
+    margin-top: 200px;
+}
 footer{
     background: linear-gradient(90deg, #6A0DAD, #8A2BE2, #DA70D6, #E6E6FA);
     padding-left: 50px;
+    padding-bottom: 20px;
 }
