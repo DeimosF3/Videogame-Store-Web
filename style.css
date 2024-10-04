@@ -28,7 +28,8 @@ h1{
     width: 50%;
     align-items: center;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .tituloJuego {
    font-size: 20px;
