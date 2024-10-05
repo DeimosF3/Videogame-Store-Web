@@ -1,18 +1,30 @@
-*{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-body{
-    margin: 0;
+.todo {
+  max-width: 60%;
+  align-items: center;
+  margin: 0 auto;
 }
-.margen{
+body {
+  margin: 0;
+  background-image: url(./imgs/98.webp);
+  background-size: cover;
+}
+main {
+  background-color: white;
+}
+.margen {
   margin-bottom: 0;
 }
-header{
-    background: linear-gradient(90deg, #6A0DAD, #8A2BE2, #DA70D6, #E6E6FA);
-    text-align: center;
+header {
+  background: linear-gradient(90deg, #6a0dad, #8a2be2, #da70d6, #e6e6fa);
+  text-align: center;
+  text-transform: uppercase;
 }
-h1{
-    margin-top: 0;
+h1 {
+  margin-top: 0;
 }
 
 .grid {
@@ -22,31 +34,30 @@ h1{
   grid-template-columns: 33.3% 33.3% 33.3% 33.3%;
 }
 .grid-50 {
-    grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
-.centrar{
-    width: 50%;
-    align-items: center;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+.centrar {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .tituloJuego {
-   font-size: 20px;
-   font-weight: bold;
-   
+  font-size: 20px;
+  font-weight: bold;
 }
 .precioJuego {
-    color: rgb(0, 195, 255);
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: -14px;
+  color: rgb(0, 195, 255);
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: -14px;
 }
 .textoJ {
-    margin-top: 200px;
+  margin-top: 200px;
 }
-footer{
-    background: linear-gradient(90deg, #6A0DAD, #8A2BE2, #DA70D6, #E6E6FA);
-    padding-left: 50px;
-    padding-bottom: 20px;
+footer {
+  background: linear-gradient(90deg, #6a0dad, #8a2be2, #da70d6, #e6e6fa);
+  padding-left: 50px;
+  padding-bottom: 20px;
 }
