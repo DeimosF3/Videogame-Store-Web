@@ -1,6 +1,6 @@
 /* Estilos globales */
 * {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,15 +21,20 @@ main {
 a {
   text-decoration: none;
 }
-h1 {
-  color: linear-gradient(90deg, #6a0dad, #e6e6fa);
-}
 header {
   text-align: left;
   text-transform: uppercase;
   padding: 10px;
 }
-
+button{
+  border: none;
+  background-color: white;
+  color:#2a5298;
+}
+.promocion{
+  width: 100%;
+  height: auto;
+}
 h1 {
   margin: 0;
   background: linear-gradient(90deg, #2a5298, #6dd5ed, #2193b0);
@@ -80,7 +85,7 @@ h1 {
   color: rgb(0, 195, 255);
   font-size: 35px;
   font-weight: bold;
-  margin-top: -14px;
+  margin-top: -6px;
 }
 
 .textoJ {
