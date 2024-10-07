@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  /*Estas tres propiedades de arriba sirven para que el header no se quede fijo cuando scrolleas*/
   text-align: left;
   text-transform: uppercase;
   padding: 10px;
