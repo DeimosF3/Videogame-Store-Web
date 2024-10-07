@@ -17,7 +17,7 @@ body {
 main {
   background-color: white;
 }
-a {
+a{
   text-decoration: none;
 }
 header {
@@ -88,7 +88,9 @@ h1 {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
-
+.imagenProducto {
+margin: auto;
+}
 .tituloJuego {
   font-size: 20px;
   font-weight: bold;
@@ -102,12 +104,12 @@ h1 {
 }
 
 .textoJ {
-  margin-top: 20px;
+  margin: auto;
 }
 
 footer {
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 /* ----------- Media Queries para Responsividad ------------ */
