@@ -1,6 +1,5 @@
-/* Estilos globales */
 * {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +10,7 @@ body {
 }
 
 .todo {
-  max-width: 90%; /* Ajustar para pantallas grandes */
+  max-width: 90%;
   align-items: center;
   margin: 0 auto;
 }
@@ -26,20 +25,20 @@ header {
   text-transform: uppercase;
   padding: 10px;
 }
-button{
+button {
   border: none;
   background-color: white;
-  color:#2a5298;
+  color: #2a5298;
 }
-.promocion{
+.promocion {
   width: 100%;
   height: auto;
 }
 h1 {
   margin: 0;
   background: linear-gradient(90deg, #2a5298, #6dd5ed, #2193b0);
-  background-clip: text; /* Propiedad estándar */
-  -webkit-background-clip: text; /* Compatibilidad con navegadores basados en WebKit (Chrome, Safari, Edge, etc.) */
+  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -47,24 +46,18 @@ h1 {
   margin-bottom: 0;
 }
 
-/* Estructura de cuadrícula */
 .grid {
   display: grid;
   gap: 20px;
 }
 
-/* Grid de 4 columnas para pantallas grandes */
 .grid-33 {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
-
-/* Grid de 2 columnas */
 .grid-50 {
   grid-template-columns: 1fr 1fr;
 }
-
-/* Para centrar el contenido de forma más eficiente */
 .centrar {
   text-align: center;
   margin-left: auto;
