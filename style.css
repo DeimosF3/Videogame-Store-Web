@@ -35,6 +35,11 @@ button {
   background-color: white;
   color: #2a5298;
 }
+.todosJuegos{
+  color: white;
+  background-color: #2a5298;
+  border-radius: 10px;
+}
 svg {
   align-items: center;
   margin: auto;
