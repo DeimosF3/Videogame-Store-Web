@@ -71,11 +71,12 @@ $paginas =  ($contar_articulos / 12) + 1;
           //     $nombre = $producto["nombre"];
           // }
           for ($i = 0; $i < count($productos); $i++) {
+            $id = $productos[$i]["id"];
             $titulo = $productos[$i]["titulo"];
             $precio = $productos[$i]["precio"];
             $imagen = $productos[$i]["imagen"];
             echo '    <div class="sombra">
-      <a href="./producto.php"><img
+      <a href="./producto.php?id=' . $id . '"><img
           width="200px"
           height="225"
           src="' . $imagen . '"
@@ -125,12 +126,12 @@ $paginas =  ($contar_articulos / 12) + 1;
           <p class="tituloJuego">Gran Turismo 7</p>
           <p class="precioJuego">49.99€</p>
         </div>
-   
+   -->
       <br />
       <img
         class="promocion"
         src="./imgs/PS5-promo-PS5OTONO24-s2225-h.jpg"
-        alt="" /> -->
+        alt="" />
     </main>
     <hr />
     <footer class="grid grid-50">

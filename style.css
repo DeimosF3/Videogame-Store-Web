@@ -35,6 +35,16 @@ button {
   background-color: white;
   color: #2a5298;
 }
+.botonCesta{
+  cursor: pointer;
+  margin: 0 auto;
+  background-color: #6dd5ed;
+  font-weight: bold;
+  color: black;
+  padding: 10px 45px;
+  margin-top: 40px;
+  text-align: center;
+}
 .todosJuegos{
   color: white;
   background-color: #2a5298;
