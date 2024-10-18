@@ -58,7 +58,7 @@ window.onload = () => {
         cartItems.push(cartItem);
 
         // Guardar el carrito actualizado en localStorage
-        localStorage.setItem('cartItems', JSON.stringify(cartItems));
+         localStorage.setItem('cartItems', JSON.stringify(cartItems));
 
         // Actualizar la interfaz del carrito
         updateCartUI();
@@ -77,5 +77,5 @@ window.onload = () => {
     closeCartButton.addEventListener('click', closeCart);
 
     // Cargar el carrito desde localStorage al cargar la página
-    loadCartFromLocalStorage();
+     loadCartFromLocalStorage();
 };
