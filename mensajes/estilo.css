@@ -1,0 +1,59 @@
+.abrir-chat {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 90px;
+    padding: 20px;
+}
+.chat {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.chat > div:nth-child(1){
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    transition: .5s;
+    opacity: 0;
+    z-index: -1;
+}
+/*\\PC18567\htdocs*/
+.chat div.abierta{
+    opacity: 1;
+    z-index: 1;
+}
+.conversacion{
+    height: 200px;
+    overflow: auto;
+}
+.conversacion.abierta{
+    display: block;
+}
+.derecha{
+    margin-top: 20px;
+    text-align: right;
+}
+.chat input::placeholder{
+    color: green;
+}
+.chat::selection{
+    background-color: brown;
+    color: yellow;
+}
+.grid{
+     display: grid; 
+}
+.login{
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    margin-top: 300px;
+}
+.enviar-login{
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
